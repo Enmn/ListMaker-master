@@ -1,10 +1,6 @@
-import random, string
-from time import sleep
-import requests
-import json
-from colorama import init,Style,Fore
-import sys
-import time as un
+import random 
+import string
+
 
 let = 0
 
