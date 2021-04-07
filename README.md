@@ -14,13 +14,13 @@ Is this okay?
 How to use
 =================
 
-```python
-additions: It is added if you want it with the username
 
-length: The number of characters in the usernames
+* `additions`: It is added if you want it with the username
 
-count: The quantity you want from username
-```
+* `length`: The number of characters in the usernames
+
+* `count`: The quantity you want from username
+
 Programmers
 =================
 
