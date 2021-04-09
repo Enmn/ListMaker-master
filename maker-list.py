@@ -33,5 +33,7 @@ for x in range(count):
     pasb = ''.join(random.choice(text) for x in range(lengit))
     with open('list.txt', 'a') as file:
         file.write(additions + pasb + '\n')
+        let += 1
+        print(f'Done {let}\{count}')
 
         
