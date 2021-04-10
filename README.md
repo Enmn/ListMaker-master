@@ -15,11 +15,11 @@ How to use
 =================
 
 
-* `additions` : It is added if you want it with the username
+* `Additions` : It is added if you want it with the username
 
-* `length` : The number of characters in the usernames
+* `Length` : The number of characters in the usernames
 
-* `count` : The quantity you want from username
+* `Count` : The quantity you want from username
 
 Programmers
 =================
