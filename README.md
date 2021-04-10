@@ -1,4 +1,4 @@
-# Welcome to the Maker-List
+# Welcome to the List-Maker
 ![Python](https://img.shields.io/static/v1?label=Python&message=3.9.1&color=informational)
 ![Ernrt](https://img.shields.io/static/v1?label=System&message=Windows,%20Linux,%20Mac&color=yellowgreen)
 ![build](https://img.shields.io/badge/build-passing-brightgreen)
