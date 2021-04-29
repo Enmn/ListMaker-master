@@ -14,11 +14,13 @@ Is this okay?
 ------------------------------------------------------------------------
 ### How to use
 
-* `Additions` : It is added if you want it with the username
+* `Beginning` : It is the addition of letters or numbers at the beginning of the text or username (optional)
 
-* `Length` : The number of characters in the usernames
+* `Ending` : Add words or numbers at the end of the text or username (optional)
 
-* `Count` : The quantity you want from username
+* `Length` : The number of characters in the username (compulsory)
+
+* `Count` : The quantity you want from username (compulsory)
 
 ------------------------------------------------------------------------
 ### Programmers
