@@ -8,6 +8,7 @@ def maker_close():
 		os.system('cls')
 	else:
 		os.system('clear')
+		r
 
 let = 0
 
