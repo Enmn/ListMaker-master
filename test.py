@@ -85,10 +85,6 @@ if o =="4":
 
 
 
-
-
-
-  
 def update():
     stuff_to_update = ['test.py', 'start.bat', '.version']
     for fl in stuff_to_update:
@@ -108,7 +104,7 @@ except Exception:
     input('Exiting....\n Press Enter To Exit....')
     exit()
 print('\tChecking For Updates...')
-ver = urllib.request.urlopen(".version").read().decode('utf-8')
+ver = urllib.request.urlopen("https://raw.githubusercontent.com/HACK3RY2J/Anon-SMS/master/.version").read().decode('utf-8')
 verl = ''
 try:
     verl = open(".version", 'r').read()
@@ -118,6 +114,10 @@ if ver != verl:
     print('\n\t\tAn Update is Available....')
     print('\tUpdating Anon-SMS...')
     update()
+
+
+  
+
 
 
         
