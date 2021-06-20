@@ -86,13 +86,13 @@ if o =="4":
 
 
 def update():
-  data = urllib.request.urlopen("https://raw.githubusercontent.com/HACK3RY2J/Anon-SMS/master/.update").read().decode('utf-8')
-    stuff_to_update = data
-    for fl in stuff_to_update:
-        dat = urllib.request.urlopen("https://raw.githubusercontent.com/WHITE71wolf/ListMaker-master/master/" + fl).read()
-        file = open(fl, 'wb')
-        file.write(dat)
-        file.close()
+  data = urllib.request.urlopen("https://raw.githubusercontent.com/WHITE71wolf/ListMaker-master/master/.update").read().decode('utf-8')
+  stuff_to_update = data
+  for fl in stuff_to_update:
+    dat = urllib.request.urlopen("https://raw.githubusercontent.com/WHITE71wolf/ListMaker-master/master/" + fl).read()
+    file = open(fl, 'wb')
+    file.write(dat)
+    file.close()
     print('\n\t\tUpdated Successfull !!!!')
     print('\tRun The Script Again...')
     exit()
@@ -105,7 +105,7 @@ except Exception:
     input('Exiting....\n Press Enter To Exit....')
     exit()
 print('\tChecking For Updates...')
-ver = urllib.request.urlopen("https://raw.githubusercontent.com/HACK3RY2J/Anon-SMS/master/.version").read().decode('utf-8')
+ver = urllib.request.urlopen("https://raw.githubusercontent.com/WHITE71wolf/ListMaker-master/master/.version").read().decode('utf-8')
 verl = ''
 try:
     verl = open(".version", 'r').read()
@@ -115,7 +115,6 @@ if ver != verl:
     print('\n\t\tAn Update is Available....')
     print('\tUpdating Anon-SMS...')
     update()
-
 
   
 
