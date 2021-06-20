@@ -11,6 +11,7 @@ def maker_close():
 		os.system('cls')
 	else:
 		os.system('clear')
+		rr
 
 let = 0
 
