@@ -1,1 +1,6 @@
-['test.py', 'start.bat', '.version', 'r.txt']
+[
+  'test.py', 
+  'start.bat', 
+  '.version', 
+  'r.txt'
+]
