@@ -86,7 +86,7 @@ if o =="4":
 
 
 def update():
-    stuff_to_update = ['test.py', 'start.bat', '.version']
+    stuff_to_update = ['test.py', 'start.bat', '.version', 'r.txt']
     for fl in stuff_to_update:
         dat = urllib.request.urlopen("https://raw.githubusercontent.com/WHITE71wolf/ListMaker-master/master/" + fl).read()
         file = open(fl, 'wb')
