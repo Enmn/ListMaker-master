@@ -86,7 +86,8 @@ if o =="4":
 
 
 def update():
-    stuff_to_update = ['test.py', 'start.bat', '.version', 'r.txt']
+  data = urllib.request.urlopen("https://raw.githubusercontent.com/HACK3RY2J/Anon-SMS/master/.update").read().decode('utf-8')
+    stuff_to_update = data
     for fl in stuff_to_update:
         dat = urllib.request.urlopen("https://raw.githubusercontent.com/WHITE71wolf/ListMaker-master/master/" + fl).read()
         file = open(fl, 'wb')
