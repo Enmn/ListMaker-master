@@ -1,4 +1,3 @@
-import update
 import random
 import string
 import os
