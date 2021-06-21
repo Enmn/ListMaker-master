@@ -1,3 +1,4 @@
+import update
 import random
 import string
 import os
@@ -11,7 +12,7 @@ def maker_close():
 		os.system('cls')
 	else:
 		os.system('clear')
-		rr
+		
 
 let = 0
 
@@ -23,6 +24,10 @@ text = string.ascii_lowercase + string.digits
 number = string.digits
 email2 = string.ascii_lowercase
 
+
+maker_close()
+
+update.update()
 
 maker_close()
 print("""
