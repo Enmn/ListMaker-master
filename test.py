@@ -50,7 +50,7 @@ except Exception:
 if ver != verl:
     print('\n\t\tAn Update is Available....')
     print('\tUpdating...')
-    update()
+   
 
 maker_close()
 
