@@ -24,7 +24,6 @@ except Exception:
     print("\tPlease Connect To Internet To Continue...\n")
     input('Exiting....\n Press Enter To Exit....')
     exit()
-print('\tChecking For Updates...')
 ver = urllib.request.urlopen("https://raw.githubusercontent.com/WHITE71wolf/ListMaker-master/master/.version").read().decode('utf-8')
 verl = ''
 try:
@@ -33,5 +32,5 @@ except Exception:
     pass
 if ver != verl:
     print('\n\t\tAn Update is Available....')
-    print('\tUpdating Anon-SMS...')
+    print('\tUpdating...')
     update()
